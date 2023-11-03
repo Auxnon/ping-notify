@@ -1,0 +1,1 @@
+nodemon --delay 3 app.js

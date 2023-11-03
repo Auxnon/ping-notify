@@ -1,0 +1,12 @@
+[Unit]
+Description=ping notify
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/path/to/repo/run.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
