@@ -1,0 +1,11 @@
+{
+  "name": "ping-notify",
+  "module": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "node-schedule": "^2.1.1"
+  }
+}
